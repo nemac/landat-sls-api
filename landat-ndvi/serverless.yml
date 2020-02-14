@@ -1,0 +1,42 @@
+service: landat-ndvi
+
+plugins:
+  - serverless-python-requirements
+custom:
+  pythonRequirements:
+    dockerizePip: non-linux
+
+provider:
+  name: aws
+  runtime: python3.8
+
+# you can add statements to the Lambda function's IAM Role here
+  iamRoleStatements:
+    - Effect: 'Allow'
+      Action:
+        - 's3:*'
+      Resource: "arn:aws:s3:::landat-cloud-optimized-tiffs/*"
+    - Effect: 'Allow'
+      Action:
+        - 's3:*'
+      Resource: "arn:aws:s3:::landat-cloud-optimized-tiffs"
+    - Effect: "Allow"
+      Action:
+        - "s3:ListBucket"
+      Resource: { "Fn::Join" : ["", ["arn:aws:s3:::", { "Ref" : "ServerlessDeploymentBucket" } ] ]  }
+
+# you can define service wide environment variables here
+  environment:
+    BUCKET_NAME: landat-cloud-optimized-tiffs
+
+functions:
+  landat-ndvi:
+    handler: main.lambda_handler
+    events: 
+      - http: 
+          path: landat-ndvi
+          method: get
+          request:
+            parameters:
+              querystrings:
+                args: true
