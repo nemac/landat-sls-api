@@ -1,4 +1,4 @@
-# Serverless Landat NDVI
+# Serverless Landat NDVI AWS Lambda Function
 
 This lambda function takes a set of lat/long coordinates and returns a list of dates and ndvi values
 
