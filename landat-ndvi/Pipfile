@@ -8,7 +8,7 @@ verify_ssl = true
 [packages]
 rasterio = "*"
 s3transfer = "*"
-boto3 = "*"
+pyproj = "*"
 
 [requires]
 python_version = "3.7"

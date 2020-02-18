@@ -9,6 +9,8 @@ custom:
 provider:
   name: aws
   runtime: python3.8
+  memorySize: 1024
+  timeout: 60 
 
 # you can add statements to the Lambda function's IAM Role here
   iamRoleStatements:
@@ -36,7 +38,9 @@ functions:
       - http: 
           path: landat-ndvi
           method: get
+          cors: true
           request:
             parameters:
               querystrings:
-                args: true
+                lng: true
+                lat: true
