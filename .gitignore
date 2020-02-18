@@ -1,3 +1,7 @@
+# serverless stuff
+.serverless
+landat-ndvi/.serverless
+
 # js Dependency directories
 node_modules/
 jspm_packages/
