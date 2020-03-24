@@ -22,7 +22,8 @@ LANDAT_NDVI_FILES = [
   'land2014.tif',
   'land2015.tif',
   'land2016.tif',
-  'land2017.tif'
+  'land2017.tif',
+  'land2018.tif'
 ]
 
 NONLEAP_DATES_LIST = [
