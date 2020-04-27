@@ -3,17 +3,17 @@ service: landat-ndvi
 plugins:
   - serverless-python-requirements
   - serverless-offline
+
 custom:
   pythonRequirements:
-    dockerizePip: non-linux
+    dockerizePip: true
 
 provider:
   name: aws
   runtime: python3.8
   memorySize: 1024
-  timeout: 30
+  timeout: 40
 
-# you can add statements to the Lambda function's IAM Role here
   iamRoleStatements:
     - Effect: 'Allow'
       Action:
@@ -28,7 +28,6 @@ provider:
         - "s3:ListBucket"
       Resource: { "Fn::Join" : ["", ["arn:aws:s3:::", { "Ref" : "ServerlessDeploymentBucket" } ] ]  }
 
-# you can define service wide environment variables here
   environment:
     BUCKET_NAME: landat-cloud-optimized-tiffs
 
