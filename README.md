@@ -52,21 +52,26 @@ You can spin up a local API to test against by running:
 
 You should see something like this:
 
-```bash
-Serverless: Starting Offline: dev/us-east-1.
+```
+offline: Starting Offline: dev/us-east-1.
+offline: Offline [http for lambda] listening on http://localhost:3002
 
-Serverless: Routes for landat-ndvi:
-Serverless: GET /landat-ndvi
-Serverless: POST /{apiVersion}/functions/landat-ndvi-dev-landat-ndvi/invocations
+   ┌───────────────────────────────────────────────────────────────────────────────┐
+   │                                                                               │
+   │   GET | http://localhost:3000/dev/landat-ndvi                                 │
+   │   POST | http://localhost:3000/2015-03-31/functions/landat-ndvi/invocations   │
+   │                                                                               │
+   └───────────────────────────────────────────────────────────────────────────────┘
 
-Serverless: Offline [HTTP] listening on http://localhost:3000
-Serverless: Enter "rp" to replay the last request
+offline: [HTTP] server ready: http://localhost:3000 🚀
+offline: 
+offline: Enter "rp" to replay the last request
 ```
 
 Test your offline API with curl:
 
 ```bash
-curl http://localhost:3000/landat-ndvi/\?lng\=-82.8\&lat\=35.8
+curl http://localhost:3000/dev/landat-ndvi/\?lng\=-82.8\&lat\=35.8
 ```
 
 You should get a response that looks something like:

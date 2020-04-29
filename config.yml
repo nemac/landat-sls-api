@@ -1,0 +1,45 @@
+
+vrt: landat_ndvi.vrt
+
+dataset_bucket: landat-cloud-optimized-tiffs
+
+datasets:
+  - name: landat2000
+    path: land2000.tif
+  - name: landat2001
+    path: land2001.tif
+  - name: landat2002
+    path: land2002.tif
+  - name: landat2003
+    path: land2003.tif
+  - name: landat2004
+    path: land2004.tif
+  - name: landat2005
+    path: land2005.tif
+  - name: landat2006
+    path: land2006.tif
+  - name: landat2007
+    path: land2007.tif
+  - name: landat2008
+    path: land2008.tif
+  - name: landat2009
+    path: land2009.tif
+  - name: landat2010
+    path: land2010.tif
+  - name: landat2011
+    path: land2011.tif
+  - name: landat2012
+    path: land2012.tif
+  - name: landat2013
+    path: land2013.tif
+  - name: landat2014
+    path: land2014.tif
+  - name: landat2015
+    path: land2015.tif
+  - name: landat2016
+    path: land2016.tif
+  - name: landat2017
+    path: land2017.tif
+  - name: landat2018
+    path: land2018.tif
+

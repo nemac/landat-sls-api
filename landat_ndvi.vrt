@@ -1,0 +1,232 @@
+<VRTDataset rasterXSize="21624" rasterYSize="16813">
+  <SRS>PROJCS["unnamed",GEOGCS["unnamed ellipse",DATUM["unknown",SPHEROID["unnamed",6370997,0]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433]],PROJECTION["Lambert_Azimuthal_Equal_Area"],PARAMETER["latitude_of_center",45],PARAMETER["longitude_of_center",-100],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]</SRS>
+  <GeoTransform> -2.0436705135791299e+06,  2.3165635826399972e+02,  0.0000000000000000e+00,  1.1424590933217001e+06,  0.0000000000000000e+00, -2.3165635826399989e+02</GeoTransform>
+  <VRTRasterBand dataType="Byte" band="1">
+    <NoDataValue>255</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsis3/landat-cloud-optimized-tiffs/land2000.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="21624" RasterYSize="16813" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="21624" ySize="16813" />
+      <DstRect xOff="0" yOff="0" xSize="21624" ySize="16813" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+<VRTRasterBand dataType="Byte" band="2">
+    <NoDataValue>255</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsis3/landat-cloud-optimized-tiffs/land2001.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="21624" RasterYSize="16813" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="21624" ySize="16813" />
+      <DstRect xOff="0" yOff="0" xSize="21624" ySize="16813" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+<VRTRasterBand dataType="Byte" band="3">
+    <NoDataValue>255</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsis3/landat-cloud-optimized-tiffs/land2002.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="21624" RasterYSize="16813" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="21624" ySize="16813" />
+      <DstRect xOff="0" yOff="0" xSize="21624" ySize="16813" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+<VRTRasterBand dataType="Byte" band="4">
+    <NoDataValue>255</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsis3/landat-cloud-optimized-tiffs/land2003.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="21624" RasterYSize="16813" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="21624" ySize="16813" />
+      <DstRect xOff="0" yOff="0" xSize="21624" ySize="16813" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+<VRTRasterBand dataType="Byte" band="5">
+    <NoDataValue>255</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsis3/landat-cloud-optimized-tiffs/land2004.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="21624" RasterYSize="16813" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="21624" ySize="16813" />
+      <DstRect xOff="0" yOff="0" xSize="21624" ySize="16813" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+<VRTRasterBand dataType="Byte" band="6">
+    <NoDataValue>255</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsis3/landat-cloud-optimized-tiffs/land2005.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="21624" RasterYSize="16813" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="21624" ySize="16813" />
+      <DstRect xOff="0" yOff="0" xSize="21624" ySize="16813" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+<VRTRasterBand dataType="Byte" band="7">
+    <NoDataValue>255</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsis3/landat-cloud-optimized-tiffs/land2006.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="21624" RasterYSize="16813" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="21624" ySize="16813" />
+      <DstRect xOff="0" yOff="0" xSize="21624" ySize="16813" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+<VRTRasterBand dataType="Byte" band="8">
+    <NoDataValue>255</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsis3/landat-cloud-optimized-tiffs/land2007.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="21624" RasterYSize="16813" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="21624" ySize="16813" />
+      <DstRect xOff="0" yOff="0" xSize="21624" ySize="16813" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+<VRTRasterBand dataType="Byte" band="9">
+    <NoDataValue>255</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsis3/landat-cloud-optimized-tiffs/land2008.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="21624" RasterYSize="16813" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="21624" ySize="16813" />
+      <DstRect xOff="0" yOff="0" xSize="21624" ySize="16813" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+<VRTRasterBand dataType="Byte" band="10">
+    <NoDataValue>255</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsis3/landat-cloud-optimized-tiffs/land2009.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="21624" RasterYSize="16813" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="21624" ySize="16813" />
+      <DstRect xOff="0" yOff="0" xSize="21624" ySize="16813" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+<VRTRasterBand dataType="Byte" band="11">
+    <NoDataValue>255</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsis3/landat-cloud-optimized-tiffs/land2010.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="21624" RasterYSize="16813" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="21624" ySize="16813" />
+      <DstRect xOff="0" yOff="0" xSize="21624" ySize="16813" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+<VRTRasterBand dataType="Byte" band="12">
+    <NoDataValue>255</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsis3/landat-cloud-optimized-tiffs/land2011.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="21624" RasterYSize="16813" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="21624" ySize="16813" />
+      <DstRect xOff="0" yOff="0" xSize="21624" ySize="16813" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+<VRTRasterBand dataType="Byte" band="13">
+    <NoDataValue>255</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsis3/landat-cloud-optimized-tiffs/land2012.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="21624" RasterYSize="16813" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="21624" ySize="16813" />
+      <DstRect xOff="0" yOff="0" xSize="21624" ySize="16813" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+<VRTRasterBand dataType="Byte" band="14">
+    <NoDataValue>255</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsis3/landat-cloud-optimized-tiffs/land2013.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="21624" RasterYSize="16813" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="21624" ySize="16813" />
+      <DstRect xOff="0" yOff="0" xSize="21624" ySize="16813" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+<VRTRasterBand dataType="Byte" band="15">
+    <NoDataValue>255</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsis3/landat-cloud-optimized-tiffs/land2014.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="21624" RasterYSize="16813" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="21624" ySize="16813" />
+      <DstRect xOff="0" yOff="0" xSize="21624" ySize="16813" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+<VRTRasterBand dataType="Byte" band="16">
+    <NoDataValue>255</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsis3/landat-cloud-optimized-tiffs/land2015.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="21624" RasterYSize="16813" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="21624" ySize="16813" />
+      <DstRect xOff="0" yOff="0" xSize="21624" ySize="16813" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+<VRTRasterBand dataType="Byte" band="17">
+    <NoDataValue>255</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsis3/landat-cloud-optimized-tiffs/land2016.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="21624" RasterYSize="16813" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="21624" ySize="16813" />
+      <DstRect xOff="0" yOff="0" xSize="21624" ySize="16813" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+<VRTRasterBand dataType="Byte" band="18">
+    <NoDataValue>255</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsis3/landat-cloud-optimized-tiffs/land2017.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="21624" RasterYSize="16813" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="21624" ySize="16813" />
+      <DstRect xOff="0" yOff="0" xSize="21624" ySize="16813" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+<VRTRasterBand dataType="Byte" band="19">
+    <NoDataValue>255</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="0">/vsis3/landat-cloud-optimized-tiffs/land2018.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="21624" RasterYSize="16813" DataType="Byte" BlockXSize="128" BlockYSize="128" />
+      <SrcRect xOff="0" yOff="0" xSize="21624" ySize="16813" />
+      <DstRect xOff="0" yOff="0" xSize="21624" ySize="16813" />
+      <NODATA>255</NODATA>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
