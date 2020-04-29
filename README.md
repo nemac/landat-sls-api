@@ -2,12 +2,12 @@
 
 This lambda function takes a set of lat/long coordinates and returns a list of dates and ndvi values
 
-### Setting up the environment
+## Setting up the environment
 
 This repository uses the Serverless Framework to build, run, and test a GIS API that runs on AWS Lambda on the Python 3.8 runtime. In order to test locally you will need to install Python 3.8. We recommend using pyenv to manage Python installations, but it's not required.
 
 
-#### Installing Python 3.8 using pyenv (Optional)
+### Installing Python 3.8 using pyenv (Optional)
 
 - Install [pyenv](https://github.com/pyenv/pyenv#installation).
 
@@ -44,7 +44,7 @@ Here's a few ways to set up virtual environements:
 - Install serverless dependencies: `npm install`
 
 
-### Run a local API
+## Run a local API
 
 You can spin up a local API to test against by running:
 
@@ -80,7 +80,7 @@ You should get a response that looks something like:
 ["20000108,54", "20000116,53", "20000124,52", "20000201,51", "20000209,50", ...
 ```
 
-### Deploying
+## Deploying
 
 In order to deploy the function simply run
 
