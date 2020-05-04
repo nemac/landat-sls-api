@@ -33,9 +33,9 @@ Pyenv is a useful tool for managing multiple Python installations with different
 
 ## Run a local API
 
-First run `pipenv shell` to activate your virtual environment, then spin up a local API:
+Spin up a local API to test against. Use `pipenv run` to use the virtual environment for the project.
 
-```serverless offline```
+```pipenv run serverless offline```
 
 You should see something like this:
 
