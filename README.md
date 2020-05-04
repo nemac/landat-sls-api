@@ -72,7 +72,11 @@ You should get a response that looks something like:
 Deploy your API:
 
 ```bash
-serverless deploy
+# Deploy to beta
+pipenv run serverless deploy --stage beta
+
+# Deploy to prod
+pipenv run serverless deploy --stage prod
 ```
 
 The expected result should be similar to:
@@ -111,7 +115,7 @@ Serverless: Run the "serverless" command to setup monitoring, troubleshooting an
 
 Sample Use Case
 ```
-curl https://995z88gokc.execute-api.us-east-1.amazonaws.com/dev/landat-ndvi\?args\=-82.49633789062501,35.58138418324621
+curl https://995z88gokc.execute-api.us-east-1.amazonaws.com/beta/landat-ndvi\?args\=-82.49633789062501,35.58138418324621
 ```
 
 Expected Results (Truncated in the middle)
